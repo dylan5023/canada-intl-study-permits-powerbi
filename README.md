@@ -112,7 +112,6 @@ A 15-point checklist compared dashboard values with independently calculated tot
 ## Repository structure
 ```
 ├── README.md
-├── Intl_Study_Permit_Monitor.pbix
 ├── data/
 │   ├── README.md          # sources, download dates, licence
 │   └── raw/               # original IRCC and Statistics Canada files
@@ -121,10 +120,11 @@ A 15-point checklist compared dashboard values with independently calculated tot
     └── dashboard.pdf      # static export of all pages
 ```
 
-**To refresh:** open the `.pbix`, go to *Transform data › Edit parameters*, set `DataFolder` to the full path of `data/raw/` (ending with `\`), then *Refresh*.
+**The .pbix is not published in this repository. A live walkthrough is available on request — the screenshots, PDF export, and raw data here document the full build.
 
 ## Attribution
 Contains information licensed under the [Open Government Licence – Canada](https://open.canada.ca/en/open-government-licence-canada) and the [Statistics Canada Open Licence](https://www.statcan.gc.ca/en/reference/licence). Adapted by the author; not endorsed by Immigration, Refugees and Citizenship Canada or Statistics Canada.
 
 ---
 *Author: Dylan Kang · [LinkedIn](https://www.linkedin.com/in/junhyeok-kang/)*
+*Dashboard design, Power Query and DAX © 2026 Dylan Kang. Data © IRCC and Statistics Canada under the Open Government Licence – Canada.*
